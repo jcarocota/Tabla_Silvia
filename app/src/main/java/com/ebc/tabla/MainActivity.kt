@@ -97,7 +97,7 @@ fun Tabla() {
 fun EncabezadoColumna(texto: String = "") {
     Box(
         modifier = Modifier
-            .background(Color.LightGray)
+            .background(Color.Cyan)
             .width(90.dp)
             .height(60.dp)
             .wrapContentWidth(Alignment.CenterHorizontally)
