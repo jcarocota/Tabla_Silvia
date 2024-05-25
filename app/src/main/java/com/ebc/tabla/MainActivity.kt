@@ -105,6 +105,7 @@ fun EncabezadoColumna(texto: String = "") {
     ) {
         Text(
             text = texto,
+            color = Color.Magenta,
             fontWeight = FontWeight.Bold,
             modifier = Modifier
                 .fillMaxWidth()
